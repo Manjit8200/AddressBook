@@ -26,12 +26,12 @@ public class ReadCSV{
    public void showDetails(){
         for(People ppl : peopleEntity){
             System.out.println("FirstName: "+ppl.getFirstName());
-			System.out.println("LastName: "+ppl.getLastName());
+		      	System.out.println("LastName: "+ppl.getLastName());
             System.out.println("Address: "+ppl.getAddress());
             System.out.println("City: "+ppl.getCity());
-			System.out.println("State: "+ppl.getState());
+			      System.out.println("State: "+ppl.getState());
             System.out.println("Zip: "+ppl.getZip());
-		    System.out.println("PhoneNumber: "+ppl.getPhoneNumber());
+		        System.out.println("PhoneNumber: "+ppl.getPhoneNumber());
         }
     }
 }
