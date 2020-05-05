@@ -19,25 +19,25 @@ public class ReadCSV{
        People peopleEntry = new People();
         
 	            System.out.println("Enter the FirstName: ");
-              peopleEntry.setFirstName(userData.nextLine());
+             	    peopleEntry.setFirstName(userData.nextLine());
         
-	           	System.out.println("Enter the LastName: ");
+	            System.out.println("Enter the LastName: ");
       		    peopleEntry.setLastName(userData.nextLine());
         	
 	            System.out.println("Enter Address: ");
-               peopleEntry.setAddress(userData.nextLine());
+               	    peopleEntry.setAddress(userData.nextLine());
         
-	    	      System.out.println("Enter City: ");
+	    	    System.out.println("Enter City: ");
         	    peopleEntry.setCity(userData.nextLine());
         
-	    	      System.out.println("Enter State: ");
+	    	    System.out.println("Enter State: ");
         	    peopleEntry.setState(userData.nextLine());
         
 	            System.out.println("Enter Phone number: ");
-              peopleEntry.setPhoneNumber(userData.nextLine());
+              	    peopleEntry.setPhoneNumber(userData.nextLine());
         
 	            System.out.println("Enter ZipCode: ");
-              peopleEntry.setZip(userData.nextLine());
+              	    peopleEntry.setZip(userData.nextLine());
         
 	    	peopleEntity.add(peopleEntry);
     }
@@ -51,11 +51,11 @@ public class ReadCSV{
      public static void showDetails(){
        	   for(People ppl : peopleEntity){
            		System.out.println("FirstName: "+ppl.getFirstName());
-			        System.out.println("LastName: "+ppl.getLastName());
+			System.out.println("LastName: "+ppl.getLastName());
           		System.out.println("Address: "+ppl.getAddress());
            	 	System.out.println("City: "+ppl.getCity());
            	 	System.out.println("Zip: "+ppl.getZip());
-		         	System.out.println("PhoneNumber: "+ppl.getPhoneNumber());
+		        System.out.println("PhoneNumber: "+ppl.getPhoneNumber());
         }
     }
 }
